@@ -1,0 +1,9 @@
+<resources>
+    <string name="heady_assignment">HeadyAssignment</string>
+    <string name="product">Product</string>
+    <string name="select_product_by_category">Select Product by Category</string>
+    <string name="select_product_by_ranking">Select Product by Ranking</string>
+    <string name="view_by_category">View by Category</string>
+    <string name="view_by_ranking">View by Ranking</string>
+
+</resources>

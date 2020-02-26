@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rohitmishra.headyassignment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.rohitmishra.headyassignment.common.HeadyAssignmentApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.example.rohitmishra.headyassignment.product.presentation.view.ProductActivity"
+            android:label="@string/product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.rohitmishra.headyassignment.product.presentation.view.ProductRankingActivity"
+            android:label="@string/select_product_by_ranking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.rohitmishra.headyassignment.MainActivity"
+            android:label="@string/heady_assignment"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.rohitmishra.headyassignment.product.presentation.view.ProductCategoryActivity"
+            android:label="@string/select_product_by_category"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
